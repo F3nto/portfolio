@@ -31,7 +31,7 @@ const Intro = () => {
           alt=""
           className={`object-cover z-10`}
         />
-        <div className="rounded-full w-64 h-64 bg-gradient-to-r from-primary to-[#016275] absolute" />
+        <div className="rounded-full w-52 sm:w-64 h-52 sm:h-64 bg-gradient-to-r from-primary to-[#016275] absolute" />
       </div>
     </div>
   );

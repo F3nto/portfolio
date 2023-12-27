@@ -91,7 +91,7 @@ const Header = () => {
               </li>
             ))}
           </ul>
-          <div className="flex md:sm:hidden mr-5">
+          <div className="flex md:sm:hidden mr-5 ml-5 sm:ml-0">
             <button
               onClick={() => handleClickMenu()}
               className="humbuger-menu flex flex-col items-end p-4 focus:outline-none"
