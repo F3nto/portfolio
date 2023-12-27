@@ -54,9 +54,10 @@ const Header = () => {
       <Box
         display="flex"
         justifyContent="space-between"
+        
         alignItems="center"
         p={2}
-        className={`mx-12 rounded-bl-md rounded-br-md ${
+        className={`mx-0 sm:mx-12 rounded-bl-md rounded-br-md ${
           theme.palette.mode === "dark" ? "bg-[#141B2D]" : "bg-white"
         }`}
         style={{
@@ -91,7 +92,7 @@ const Header = () => {
               </li>
             ))}
           </ul>
-          <div className="flex md:sm:hidden mr-5 ml-5 sm:ml-0">
+          <div className="flex md:sm:hidden mr-2">
             <button
               onClick={() => handleClickMenu()}
               className="humbuger-menu flex flex-col items-end p-4 focus:outline-none"
@@ -114,7 +115,7 @@ const Header = () => {
           </div>
 
           <div
-            className={`rounded-full w-12 h-12 flex justify-center items-center cursor-pointer ${
+            className={`rounded-full mt-1 w-12 h-12 flex justify-center items-center cursor-pointer ${
               theme.palette.mode === "dark"
                 ? "bg-gray-800 text-white"
                 : "bg-gray-200 text-gray-800"
