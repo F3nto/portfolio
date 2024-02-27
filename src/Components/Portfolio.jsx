@@ -17,6 +17,12 @@ const Portfolio = () => {
       src: require("../Assets/plant-spe.png"),
       link : "https://github.com/F3nto/plant-frontend"
     },
+
+    {
+      id: 3,
+      src: require("../Assets/adminscentscense.jpg"),
+      link : "https://github.com/F3nto/admin-scentsense"
+    },
   ];
 
   return (
